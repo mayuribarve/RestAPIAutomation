@@ -3,10 +3,6 @@ Feature: WeatherMap REST API call testing
   # Enter feature description here
 
 
-  Background: Setup environment
-    Given Set base URL
-
-
   Scenario: Send GET Request
     Given Set GET api endpoint
     #When Set HEADER param request content type as "application/json"
